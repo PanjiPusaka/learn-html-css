@@ -15,7 +15,7 @@
 body{
     font-family: "Poppins", sans-serif;
     background-color: white;
-    min-height: 2000px;
+    min-height: 200vh;
 }
 
 .navbar{
@@ -110,6 +110,7 @@ body{
 }
 
 #client .client{
+    min-height: 100vh;
     display: flex;
 }
 
@@ -135,14 +136,64 @@ body{
     min-height: 3rem;
 }
 
-.client .frame-card {
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-    background-color: #263238;
+.client .manage-text p{
+    margin-top: 0.6rem;
 }
 
-.client .frame-card .card-1{
+.client .frame-card {
+    padding: 1rem 6.2rem;
+
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #263238; */
+}
+
+.client .frame-card h3{
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+    color: var(--secondary);
+
+}
+
+.client .frame-card p{
+    color: var(--secondary);
+    font-size: 0.6rem;
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.client .frame-card div{
+    height: 12.4rem;
+    width: 13rem;
+    text-align: center;
     background-color: white;
-    box-shadow: 3px 1px 3px rgba(41, 39, 39, 0.7);;
+    border-radius: 0.3rem;
+    box-shadow: 0px 1.39px 2.78px rgba(171, 190, 209, 1);;
+}
+
+.client .frame-card div img{
+    margin: 1.1rem;
+    min-height: 1.1rem;
+    min-width: 2.1rem;
+}
+
+.body{
+    min-height: 100vh;
+}
+
+.body .first-body{
+    margin-top: 1.62rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 18.75rem;
+    padding: 1rem 6.2rem;
+}
+
+.body .first-body .text-body{
+    margin-left: 2.1rem;
+}
+
+.body .first-body .text-body p{
+    font-weight: 300;
+    font-size: 0.6rem;
 }
