@@ -1,0 +1,148 @@
+:root{
+    --primary: #4CAF4F;
+    --secondary: #263238;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    min-height: 2000px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255);
+    /* border-bottom: 0.1rem solid rgb(224, 224, 224); */
+    padding: 0.9rem 6.2rem;
+
+    /* Make navbar stay fixed */
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.navbar-menu a{
+    color:  black;
+    margin: 1rem;
+    font-weight: 300;
+}
+
+.navbar-menu .register-btn{
+    background-color: var(--primary);
+    padding: 0.6rem 0.4rem;
+    border-radius: 0.2rem;
+    margin-left: 1.4rem;
+}
+
+.register-btn a{
+    color: white;
+}
+
+.navbar .navbar-logo{
+    display: flex;
+    align-items: center;
+    /* background-color: #F5F7FA; */
+}
+
+.navbar-logo img{
+    max-height: 5rem;
+    /* background-color: #263238; */
+}
+
+.navbar-logo a{
+    color: var(--secondary);
+    /* background-color: aqua; */
+    margin-left: 0.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.hero{
+    background-color: #F5F7FA;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6.2rem;
+}
+
+.hero .illustration img{
+    height: 50vh;
+}
+
+.hero .about h1{
+    font-size: 4rem;
+    color: var(--secondary);
+}
+
+.hero .about span{
+    color: var(--primary);
+}
+
+.hero .about p{
+    padding-top: 0.5rem;
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--secondary)
+}
+.hero .about .hero-register-btn{
+    margin-top: 3rem;
+}
+
+.hero .about .hero-register-btn a{
+    padding: 0.8rem 2.5em;
+    color: white;
+    background-color: var(--primary);
+    border-radius: 0.3rem;
+    font-weight: 300;
+}
+
+#client .client{
+    display: flex;
+}
+
+.client h2{
+    margin-top: 1.6rem;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--secondary);
+}
+
+.client p{
+    text-align: center;
+    font-weight: 300;
+}
+
+.client .client-logos{
+    display: flex;
+    margin: 1.75em 0 3.5rem 0;
+    justify-content: space-evenly;
+}
+
+.client .client-logos img{
+    min-height: 3rem;
+}
+
+.client .frame-card {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color: #263238;
+}
+
+.client .frame-card .card-1{
+    background-color: white;
+    box-shadow: 3px 1px 3px rgba(41, 39, 39, 0.7);;
+}
