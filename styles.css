@@ -83,7 +83,7 @@ body{
 }
 
 .hero .about h1{
-    font-size: 4rem;
+    font-size: 2.75rem;
     color: var(--secondary);
 }
 
@@ -94,7 +94,7 @@ body{
 .hero .about p{
     padding-top: 0.5rem;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--secondary)
 }
 .hero .about .hero-register-btn{
@@ -145,7 +145,6 @@ body{
 
     display: flex;
     justify-content: space-between;
-    /* background-color: #263238; */
 }
 
 .client .frame-card h3{
@@ -183,17 +182,113 @@ body{
 .body .first-body{
     margin-top: 1.62rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     min-height: 18.75rem;
     padding: 1rem 6.2rem;
 }
 
+.body .first-body img{
+    padding: 2.25rem 0rem;
+}
+
 .body .first-body .text-body{
-    margin-left: 2.1rem;
+    height: 11.75rem;
+    width: 28.75rem;
+}
+
+.body .first-body .text-body h2{
+    min-height: 3.875rem;
+    min-width: 26.15rem;
+    font-weight: 600;
+    font-size: 1.6rem;
 }
 
 .body .first-body .text-body p{
+    margin-top: 0.8rem;
+    height: 3.875rem;
+    width: 26.15rem;
     font-weight: 300;
     font-size: 0.6rem;
 }
+
+.body .first-body .text-body .btn-learn{
+    margin-top: 1.375rem;
+}
+
+.body .first-body .text-body .btn-learn a{
+    color: white;
+    background-color: var(--primary);
+    border-radius: 0.2rem;
+    padding: 0.7rem 1.4rem;
+    font-weight: 300;
+    font-size: 0.6rem;
+}
+
+.body .second-body{
+    margin-top: 2.1rem;
+    height: 12.6rem;
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 6.2rem;
+}
+
+.body .second-body .text-achiv{
+    height: 6rem;
+    width: 24rem;
+}
+
+.body .second-body .text-achiv h2{
+    color: var(--secondary);
+    font-size: 1.6rem;
+    height: 3.8rem;
+    width: 20rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.body .second-body .text-achiv h2 span{
+    margin-top: 0rem;
+    color: var(--primary);
+}
+
+.body .second-body .text-achiv p{
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.body .second-body .detail-achiv .row1{
+    height: 2.7rem;
+    width: 23.4rem;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body .second-body .detail-achiv .row1 .members{
+    display: flex;
+    align-items: center;
+}
+
+.body .second-body .detail-achiv .row1 .members .detail-members{
+    margin-left: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.body .second-body .detail-achiv .row1 .clubs{
+    display: flex;
+    align-items: center;
+}
+
+/* .body .second-body .detail-achiv .row2{
+    height: 2.7rem;
+    width: 23.4rem;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+} */
