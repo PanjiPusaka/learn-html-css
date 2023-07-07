@@ -267,9 +267,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: var(--secondary);
 }
 
 .body .second-body .detail-achiv .row1 .members{
+    height: 2.7rem;
+    width: 11.2rem;
     display: flex;
     align-items: center;
 }
@@ -280,15 +283,222 @@ body{
     flex-direction: column;
 }
 
+.body .second-body .detail-achiv .row1 .members .detail-members h3{
+    font-size: 1.3rem;
+}
+
+.body .second-body .detail-achiv .row1 .members .detail-members p{
+    font-weight: 300;
+    font-size: 0.7rem;
+}
+
 .body .second-body .detail-achiv .row1 .clubs{
+    height: 2.7rem;
+    width: 11.2rem;
     display: flex;
     align-items: center;
 }
 
-/* .body .second-body .detail-achiv .row2{
+.body .second-body .detail-achiv .row1 .clubs .detail-hands{
+    margin-left: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.body .second-body .detail-achiv .row1 .clubs .detail-hands h3{
+    color: var(--secondary);
+    font-size: 1.3rem;
+}
+
+.body .second-body .detail-achiv .row1 .clubs .detail-hands p{
+    font-weight: 300;
+    font-size: 0.7rem;
+}
+
+.body .second-body .detail-achiv .row2{
     height: 2.7rem;
     width: 23.4rem;
-    background-color: orange;
     display: flex;
     justify-content: space-between;
-} */
+    align-items: center;
+    color: var(--secondary);
+    margin-top: 1.7rem;
+}
+
+.body .second-body .detail-achiv .row2 .event {
+    height: 2.7rem;
+    width: 11.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.body .second-body .detail-achiv .row2 .event .detail-event{
+    margin-left: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.body .second-body .detail-achiv .row2 .event .detail-event h3{
+    font-size: 1.3rem;
+}
+
+.body .second-body .detail-achiv .row2 .event .detail-event p{
+    font-weight: 300;
+    font-size: 0.7rem;
+}
+
+.body .second-body .detail-achiv .row2 .payments{
+    height: 2.7rem;
+    width: 11.2rem;
+    display: flex;
+    align-items: center;    
+}
+
+.body .second-body .detail-achiv .row2 .payments .detail-payments{
+    margin-left: 0.8rem;
+}
+
+.body .second-body .detail-achiv .row2 .payments .detail-payments h3{
+    font-size: 1.3rem;
+    color: var(--secondary);
+}
+
+.body .second-body .detail-achiv .row2 .payments .detail-payments p{
+    font-weight: 300;
+    font-size: 0.7rem;
+}
+
+.body .calendar{
+    margin-top: 2.1rem;
+    height: 50vh;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.9rem 6.2rem;
+    color: var(--secondary);
+}
+
+.body .calendar .text-calendar{
+    height: 13.4rem;
+    width: 38rem;
+}
+
+.body .calendar .text-calendar h2{
+    width: 34rem;
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+.body .calendar .text-calendar p{
+    width: 34rem;
+    margin-top: 0.75rem;
+    font-weight: 300;
+    font-size: 0.7rem;
+}
+
+.body .calendar .text-calendar .btn-learn2{
+    margin-top: 1.375rem;
+}
+
+.body .calendar .text-calendar .btn-learn2 a{
+    border-radius: 0.2rem;
+    padding: 0.7rem 1.4rem;
+    background-color: var(--primary);
+    height: 2.25rem;
+    width: 6.5rem;
+    font-weight: 300;
+    font-size: 0.7rem;
+    color: white;
+}
+
+.body .customers{
+    color: var(--secondary);
+    margin-top: 2.1rem;
+    background-color: #F5F7FA;
+    padding: 1.4rem 6.2rem; 
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.body .customers .text-customers{
+    width: 40rem;
+    height: 14.2rem;
+    font-weight: 400;
+    font-size: 0.7rem;
+    margin-left: 3.375rem;
+}
+
+.body .customers .text-customers .text-team{
+    font-size: 0.9rem;
+    margin-top: 0.7rem;
+}
+
+.body .customers .text-customers .text-team h4{
+    color: var(--primary);
+    font-size: 0.9rem;
+}
+
+.body .customers .text-customers .text-team p{
+    margin: 0.3rem 0;
+    font-weight: 300;
+    columns: var(--secondary);
+    font-size: 0.7rem;
+}
+
+.body .customers .text-customers .customers-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.4rem;
+}
+
+.body .customers .text-customers .customers-logo .logos{
+    width: 21rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1.7rem;
+}
+
+.body .customers .text-customers .customers-logo .more-logos{
+    display: flex;
+    align-items: center;
+}
+
+.body .customers .text-customers .customers-logo .more-logos a{
+    margin-right: 0.5rem;
+    color: var(--primary);
+    font-size: 0.9rem;
+}
+
+.body .community{
+    color: var(--secondary);
+    padding: 0rem 6.2rem; 
+    display: flex;
+    height: 50vh;
+    margin: 2.1rem;
+    flex-direction: column;
+}
+
+.body .community .text-community{
+    margin: 0 auto;
+    height: 5.5rem;
+    text-align: center;
+}
+
+.body .community .text-community h2{
+}
+
+.body .community .text-community p{
+    width: 30rem;
+    font-weight: 300;
+    font-size: 0.7rem;
+    margin-top: 0.3rem;
+}
+
+.body .community .photos{
+    margin-top: 0.7rem;
+}
