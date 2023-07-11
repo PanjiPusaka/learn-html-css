@@ -720,13 +720,13 @@ footer .second-footer .links .col-3 form .email-group {
   background-color: rgba(255, 255, 255, 0.3);
   box-sizing: content-box;
   height: 1.75rem;
-  width: 13rem;
+  width: 11rem;
   display: flex;
   align-items: center;
 }
 
 footer .second-footer .links .col-3 form .email-group input {
-  /* margin: 0.4rem; */
+  margin: 0.4rem;
   background: none;
   color: #d9dbe1;
   font-weight: 300;
@@ -740,9 +740,8 @@ footer .second-footer .links .col-3 form .email-group input::placeholder {
   font-family: "Poppins", sans-serif;
 }
 
-footer .second-footer .links .col-3 form .email-group i {
-  width: 0.75rem;
-  height: 0.75rem;
-  /* margin: 0.4rem; */
-  /* background-color: orange; */
+footer .second-footer .links .col-3 form .email-group .size {
+  height: 1.1rem;
+  width: 1.1rem;
+  margin: 0.4rem;
 }
